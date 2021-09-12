@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+body {
+    background-color: rgba(220, 220, 220, 0.4);
+    background-image: url('images/cool-background.png');
+}
+
+.headerBar {
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+}
+
+.toplogo {
+    width: 80px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.leftNav li {
+    display: inline-block;
+    float: left;
+}
+
+.rightNav li {
+    display: inline-block;
+    float: right;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+.nav1 {
+    margin: 5px 5px 5px 5px;
+    padding: 6px 10px 6px 10px;
+    background-color: rgba(200, 231, 250, 0.9);
+    border: 1px black solid;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    box-shadow: 4px 3px 4px 1px rgba(0, 0, 0, 0.30);
+}
+
+.navsignup {
+    margin: 5px 5px 5px 5px;
+    padding: 6px 10px 6px 10px;
+    background-color: rgba(200, 206, 250, 0.9);
+    color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    box-shadow: 4px 3px 4px 1px rgba(0, 0, 0, 0.30);
+}
+
+.navsignin {
+    margin: 5px 5px 5px 5px;
+    padding: 6px 10px 6px 10px;
+    background-color: rgba(200, 249, 72, 1);
+    color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    box-shadow: 4px 3px 4px 1px rgba(0, 0, 0, 0.30);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+}
+
+.titleArea {
+    color: red;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.2));
+    font-family: 'Russo One', sans-serif;
+    //font-size: 3em;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 350px;
+    box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+}
+
+.grow {
+    transition: all .3s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.team {
+    width: 170px;
+    height: auto;
+}
+
+.techPictures-mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.techPics {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.teamMembers-container {
+    //max-width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+
+.teamMembers {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figcaption {
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.main-base-container {
+    display: inline-block;
+    width: 100% height: auto;
+}
+
+.base-containerLeft {
+    width: 250px;
+    height: 170px;
+    display: inline;
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+}
+
+.leftList {
+    display: block;
+    float: left;
+}
+
+.rightList {
+    display: block;
+    float: right;
+}
+
+.baseNav {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    font-family: 'Baloo 2', cursive;
+    list-style-type: none;
+}
+
+
+.base-containerRight {
+    width: 200px;
+    height: 170px;
+    display: inline;
+    float: right;
+    margin-left: 40px;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+
+
+footer {
+    margin-bottom: 10px;
+}
+
+
+
+@media screen and (width: 400px) and (width: 699px) {
+    .titleArea {
+        font-size: 2em;
+    }
+}
+
+
+@media screen and (min-width: 701px) {
+    .titleArea {
+        font-size: 3em;
+    }
+}
