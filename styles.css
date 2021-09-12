@@ -85,7 +85,7 @@ h1 {
 
 .titleArea {
     color: red;
-    background-image: linear-gradient(black, rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(50, 50, 50, 0.8), rgba(0, 0, 0, 0.1));
     font-family: 'Russo One', sans-serif;
     //font-size: 3em;
     text-align: center;
@@ -94,7 +94,9 @@ h1 {
 img {
     width: 250px;
     height: 350px;
-    box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+    box-shadow: 2px -6px 40px 3px rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    border: 1px white solid;
 }
 
 .grow {
